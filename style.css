@@ -1,0 +1,88 @@
+html{
+    font-family: sans-serif;
+    background-color: #EAD2AC;
+}
+h1 {
+    width: 100%;
+    color: #4281A4;
+    text-align: center ;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#userBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+#userBox input{
+    border: none;
+    width: 50%;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 100px;
+    color: #4281A4;
+    font-size: 18px;
+    
+}
+input:focus , button:focus{
+    outline:none ;
+}
+
+#userBox button{
+    width:25%;
+    border-radius: 100px;
+    border: none;
+    background: #84732B;
+    font-size: 18px;
+    color: white;
+}
+#userBox input:hover ,button:hover{
+    box-shadow: 1px 1px 5px black;
+    transition:all 150ms ease
+
+}
+
+
+
+div .box{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #4281A4;
+}
+
+div .box h2{
+    width: 80%;
+    border-radius: 50px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+div .box h2:hover{
+    transform:scale(1.02);
+    transition:all 150ms ease;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+div .box p{
+    color: #9CAFB7;
+    font-size: 20px;
+    font-weight: 900;
+}
+div .box p:hover{
+    color: #E6B89C;
+    transform:scale(1.3);
+    transition:all 150ms ease;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    right:30px ;
+}
